@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+}
+main{
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(231, 235, 226);
+    width :95vw;
+    height: 80vh;
+    border: grey 0.5px solid;
+    border-radius:1.5%;
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.divBusc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;    
+}
+.card{
+    margin: 1rem;
+    border: solid green 2px;
+    border-radius:3% ;
+    height: 6rem;
+    width: 25rem;
+    text-align: center;
+    font: 2em sans-serif;    
+}
+.card.p{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*cuando se ponga el mouse encima del nombre deberá aparecer el nombre de usuario.
